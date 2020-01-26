@@ -14,11 +14,14 @@ Implementations of Disjoint Sets using Linked Lists.
 MakeSet(a)</p>
 <p>Description: We will make an object through set class and pass the parameter in the MakeSet function to create a new set</p>
 <h2>FindSet:</h2>
-<p>a = Set()<br /> 
+<p>MakeSet(a)<br />
+a = Set()<br /> 
 FindSet(a)</p>
 <p>Description: We will make an object through set class and pass the parameter in the FindSet function to find an existing set</p>
 <h2> Union:</h2>
-<p>a = Set()<br />
+<p>MakeSet(a)<br />
+MakeSet(b)<br />
+a = Set()<br />
 b = Set()<br />
 Union(a,b)</p>
 <p>Description: We will make a and b objects through set class and pass the parameter in the Union function to unite two sets</p>
